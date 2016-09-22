@@ -45,16 +45,16 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.MobilePhone, htmlAttributes: new { @class = "control-label col-md-2 rfield" })
+            @Html.LabelFor(model => model.MobilePhone, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.MobilePhone, new { htmlAttributes = new { id = "phone", name = "phone", @class = "form-control" } })
+                @Html.EditorFor(model => model.MobilePhone, new { htmlAttributes = new { id = "phone", name = "phone", @class = "form-control rfield" } })
                 @Html.ValidationMessageFor(model => model.MobilePhone, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-success btn_submit disabled" />
+                <input type="submit" value="Save" class="btn btn-success btn_submit" />
             </div>
         </div>
     </div>
