@@ -189,6 +189,7 @@
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <None Include="scripts\jquery-1.12.4.intellisense.js" />
+    <Content Include="scripts\emojionarea.js" />
     <Content Include="scripts\MyValidation.js" />
     <Content Include="scripts\jquery-1.12.4.js" />
     <Content Include="scripts\jquery-1.12.4.min.js" />
