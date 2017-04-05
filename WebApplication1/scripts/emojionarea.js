@@ -1,4 +1,4 @@
-﻿$(function (document, window, $) {
+﻿(function (document, window, $) {
     'use strict';
 
     var unique = 0;
